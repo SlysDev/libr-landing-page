@@ -1,0 +1,89 @@
+* {
+  --primaryBlue: #222564;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+h1 {
+  font-weight: 550;
+}
+
+a {
+  font-weight: 500;
+}
+
+button {
+  font-family: inherit;
+}
+
+nav {
+  color: white;
+  background: #222564;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo {
+  margin-left: 2rem;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  margin: 2rem;
+}
+
+.nav-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  margin: 6rem;
+  background-color: var(--primaryBlue);
+  padding: .75rem 2.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+}
+
+.cta a {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* colors */
+
+
+.dark-blue {
+  color: #222564;
+}
+
